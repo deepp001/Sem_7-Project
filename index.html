@@ -1,12 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assests/icon/fontawesome-free-6.1.1-web/css/all.css">
+    <title>Deep-Portfolio</title>
 </head>
+
 <body>
-    hello world
+    <aside class="aside-content">
+        <div id="logo">
+            <a href="#"><span>D</span>eep</a>
+        </div>
+        <div class="nav-toggle">
+            <span></span>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home" class="active"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>      
+                <li><a href="#contact"><i class="fa-solid fa-envelope-open"></i>Contact</a></li>
+            </ul>
+        </nav>
+        <ul class="social-media">
+            <li><a href=""><i class="fa-brands fa-facebook-square"></i></a></button></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github-square"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </aside>
+    <main>
+        <section class="home section aec" id="home">
+            <div class="home-content container ">
+                <div class="info">
+                    <h1>Hello, My Name is <span>Deep Patel</span><br>
+                        I' am <span>Web Developer</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nobis tempora sequi assumenda
+                        officiis omnis tempore rem nesciunt velit ullam?</p>
+                        <a href="" class="btn">Download CV</a>
+                </div>
+                <div class="info-img">
+                    <img src="./assests/image/greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-title padd-15">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-main padd-15">
+                    <div class="name padd-15">
+                        <h3>I'am Deep Patel and <span>Web Developer</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Obcaecati excepturi debitis placeat quaerat corporis! Corporis reprehenderit vel
+                            officia, molestias praesentium cumque quidem, facere perferendis ad excepturi minima
+                            laudantium! Optio, consequatur.</p>
+                    </div>
+                    <div class="row">
+                        <div class="personal-info">
+                            <p class="info-items padd-15">Birthday : <span>02/01/2001</span></p>
+                            <p class="info-items padd-15">Age : <span>21 years old</span></p>
+                            <p class="info-items padd-15">website : <span>www.deep.ac.in</span></p>
+                            <p class="info-items padd-15">Email : <span>deepp9185@gmail.com</span></p>
+                            <p class="info-items padd-15">Degree : <span>BE[IT(Information Tecnology)]</span></p>
+                            <p class="info-items padd-15">Phone : <span>+91 8320459897</span></p>
+                            <p class="info-items padd-15">Current living city : <span>Ahmedabad</span></p>
+                            <p class="info-items padd-15">Hometown : <span>Ahmedabad,Gujarat</span></p>
+                            &nbsp;&nbsp;
+                            <a href="#contact" class="btn hire-me" data-section-index="1">Contact Us</a>
+                        </div>
+                        <div class="skill padd-15">
+                            <div class="row">
+                                <div class="skill-item">
+                                    <h5>Hyper Text Markup Language(HTML)</h5>
+                                    <div class="progress">
+                                        <div class="pro-in" style="width: 90%;"></div>
+                                        <span class="skill-per">90%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <h5>Cascading Style Sheet(CSS)</h5>
+                                    <div class="progress">
+                                        <div class="pro-in" style="width: 70%;"></div>
+                                        <span class="skill-per">70%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <h5>Javascript(JS)</h5>
+                                    <div class="progress">
+                                        <div class="pro-in" style="width: 50%;"></div>
+                                        <span class="skill-per">50%</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="education padd-15">
+                            <h3 class="title">Education</h3>
+                            <div class="row">
+                                <div class="timeline-box shadow-1">
+                                    <div class="timeline-item">
+                                        <div class="dot"></div>
+                                        <h3 class="timeline-date"><i class="fa-solid fa-calendar"></i>2015 - 2016</h3>
+                                        <h4 class="timeline-title">
+                                            Complete 10<sup>th</sup></h4>
+                                        <p class="timeline-text">I Completed My 10<sup>th</sup>Standard with 78% (GSEB) In
+                                            D.P. high school</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="dot"></div>
+                                        <h3 class="timeline-date"><i class="fa-solid fa-calendar"></i>2016 - 2018</h3>
+                                        <h4 class="timeline-title">
+                                            Complete 11<sup>th</sup> and 12<sup>th</sup> </h4>
+                                        <p class="timeline-text">I Completed My 11<sup>th</sup>standard with 83%(GSEB) in year
+                                            2017-2018 and Complete 12<sup>th</sup>standard with 63% (GSEB) In New D.P. high school</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="dot"></div>
+                                        <h3 class="timeline-date"><i class="fa-solid fa-calendar"></i>2019 - 2023</h3>
+                                        <h4 class="timeline-title">
+                                            Bachelor of Engineering(BE)
+                                        </h4>
+                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Iure, quibusdam optio perspiciatis ullam laudantium aliquid maiores
+                                            laborum voluptates voluptate in molestiae ipsum vero voluptatibus minus
+                                            veritatis cumque! Maxime, modi consequatur?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience padd-15">
+                            <h3 class="title">Experience</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact section padd-15" id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact Me</h2>
+                </div>
+                <h3 class="contact-title">Have you any Questions ?</h3>
+                <h4 class="sub-t">I,am At Your Services</h4>
+                <div class="row">
+                    <div class="con-info-item padd-15">
+                        <div><i class="fa-solid fa-phone"></i></div>
+                        <h4>Contact Us</h4>
+                        <p>+91 8320459897</p>
+                    </div>
+                    <div class="con-info-item padd-15">
+                        <div><i class="fa-solid fa-location-dot"></i></div>
+                        <h4>Home</h4>
+                        <p>E-6/66, vishrampark<br>nava vadaj area<br>Ahmedabad-380013 </p>
+                    </div>
+                    <div class="con-info-item padd-15">
+                        <div><i class="fa-solid fa-envelope"></i></div>
+                        <h4>Email</h4>
+                        <p>deepp9185@gmail.com</p>
+                    </div>
+                    <div class="con-info-item padd-15">
+                        <div><i class="fa-solid fa-earth-asia"></i></div>
+                        <h4>Website</h4>
+                        <p> www.deeppatel.ac.in</p>
+                    </div>
+                </div>
+                <h3 class="contact-title padd-15">Send Me Email</h3>
+                <h4 class="sub-t padd-15">I,am At Your Services</h4>
+                <div class="row">
+                    <div class="contact-form padd-15">
+                        <div class="row">
+                            <div class="form-item col-6 padd-15">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <input type="text" class="form-control" placeholder="subject">
+                            </div>
+                            <div class="form-item col-12 padd-15">
+                                <textarea name="" id="" class="form-control" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-item col-12 padd-15">
+                                <button class="btn" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
