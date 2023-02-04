@@ -38,12 +38,12 @@
 }
 
 :root {
-    --bg-black-900: #Deefbf;
-    --bg-black-100: #B7DD74;
+    --bg-black-900: #CECEFC;
+    --bg-black-100:#ABABF9 ;
     --bg-black-50: #e7f4d2;
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
-    --red-color: #81b32b;
+    --red-color: #1212ED;
 }
 
 body {
